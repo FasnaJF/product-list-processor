@@ -3,7 +3,7 @@
 namespace src\factories;
 
 use src\exceptions\ParserException;
-use src\interfaces\FileParserProvider;
+use src\interfaces\FileParser;
 use src\parsers\CSVParser;
 use src\parsers\TSVParser;
 use src\parsers\XMLParser;
@@ -14,7 +14,7 @@ class FileParserProviderFactory
     /**
      * @throws ParserException
      */
-    public static function createFileParser(string $fileType): FileParserProvider
+    public static function createFileParser(string $fileType): FileParser
     {
         return match ($fileType) {
             'csv' => new CSVParser(),

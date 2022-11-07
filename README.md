@@ -48,3 +48,12 @@ To run the test cases
 
 PS: Previously generated coverage report is available in the file `test-coverage-report.txt` for reference
 
+
+Design Decisions
+================
+
+* Based on the instructions given, the latest version of PHP is used.
+* Considering the fact, that new formats might introduce in future `FileParserProviderFactory` and `FileParser` Interface are implemented.
+   I have implemented the parser for CSV,TSV,XML and JSON
+* Shell script commands provided for execution
+* I found the csv&tsv formatting for some entries were misaligned, fixed them and the correct formats are now named as products.*

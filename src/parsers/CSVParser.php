@@ -3,9 +3,9 @@
 namespace src\parsers;
 
 use src\exceptions\ParserException;
-use src\interfaces\FileParserProvider;
+use src\interfaces\FileParser;
 
-class CSVParser extends BaseParser implements FileParserProvider
+class CSVParser extends BaseParser implements FileParser
 {
     /**
      * @throws ParserException

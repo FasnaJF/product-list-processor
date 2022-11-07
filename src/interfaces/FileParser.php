@@ -2,7 +2,7 @@
 
 namespace src\interfaces;
 
-interface FileParserProvider
+interface FileParser
 {
     public function parseFile(string $inputFile);
 }
