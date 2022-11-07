@@ -3,3 +3,4 @@
 .phpunit.result.cache
 /XHTML
 /.phpunit.cache/
+.phpunit.cache/code-coverage
