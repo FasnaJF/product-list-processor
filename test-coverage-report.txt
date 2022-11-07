@@ -1,38 +1,38 @@
 
 
-Code Coverage Report:     
-  2022-11-07 19:06:22     
-                          
- Summary:                 
-  Classes: 35.71% (5/14)  
-  Methods: 44.83% (13/29) 
-  Lines:   42.50% (51/120)
+Code Coverage Report:       
+  2022-11-07 19:25:40       
+                            
+ Summary:                   
+  Classes: 100.00% (14/14)  
+  Methods: 100.00% (28/28)  
+  Lines:   100.00% (117/117)
 
 src\FormatInput
   Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  6/  6)
 src\Product
-  Methods:  33.33% ( 2/ 6)   Lines:  64.29% (  9/ 14)
+  Methods: 100.00% ( 5/ 5)   Lines: 100.00% ( 13/ 13)
 src\ProductListGenerator
   Methods: 100.00% ( 1/ 1)   Lines: 100.00% ( 10/ 10)
 src\ProductListProcessor
-  Methods:   0.00% ( 0/ 2)   Lines:  12.50% (  2/ 16)
+  Methods: 100.00% ( 2/ 2)   Lines: 100.00% ( 14/ 14)
 src\UniqueProductListFileGenerator
-  Methods:   0.00% ( 0/ 2)   Lines:   0.00% (  0/ 24)
+  Methods: 100.00% ( 2/ 2)   Lines: 100.00% ( 24/ 24)
 src\exceptions\ParserException
   Methods: 100.00% ( 7/ 7)   Lines: 100.00% (  7/  7)
 src\factories\FileParserProviderFactory
   Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  6/  6)
 src\parsers\BaseParser
-  Methods:   0.00% ( 0/ 3)   Lines:   0.00% (  0/ 16)
+  Methods: 100.00% ( 3/ 3)   Lines: 100.00% ( 16/ 16)
 src\parsers\CSVParser
-  Methods:   0.00% ( 0/ 1)   Lines:   0.00% (  0/  2)
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  2/  2)
 src\parsers\JSONParser
-  Methods:   0.00% ( 0/ 1)   Lines:   0.00% (  0/  3)
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  3/  3)
 src\parsers\TSVParser
-  Methods:   0.00% ( 0/ 1)   Lines:   0.00% (  0/  2)
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  2/  2)
 src\parsers\XMLParser
-  Methods:   0.00% ( 0/ 1)   Lines:   0.00% (  0/  2)
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  2/  2)
 src\validators\FileParserValidator
-  Methods:   0.00% ( 0/ 1)   Lines:  75.00% (  3/  4)
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  4/  4)
 src\validators\InputValidator
   Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  8/  8)

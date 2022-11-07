@@ -48,11 +48,13 @@ class Product
         return $this->key;
     }
 
+    // @codeCoverageIgnoreStart
     public static function printList(array $products): void
     {
         foreach ($products as $product) {
             print $product;
         }
     }
+    // @codeCoverageIgnoreEnd
 }
 

@@ -1,0 +1,1 @@
+php parser.php --file products.csv --unique-combinations=unique_combinations.csv --print_output=true

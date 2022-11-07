@@ -11,7 +11,7 @@ class ProductListProcessor
     /**
      * @throws ParserException
      */
-    public function initiate($arguments): bool
+    public function initiate(array $arguments): bool
     {
         if (count($arguments) < 4) {
             throw ParserException::invalidInputArgumentsCount();
@@ -27,8 +27,12 @@ class ProductListProcessor
     /**
      * @throws ParserException
      */
-    protected function processData($inputFileName, $inputFileType, $outputFileName, $toPrint = false): bool
-    {
+    protected function processData(
+        string $inputFileName,
+        string $inputFileType,
+        string $outputFileName,
+        bool $toPrint = false
+    ): bool {
         $parser = FileParserProviderFactory::createFileParser($inputFileType);
         $parserResults = $parser->parseFile($inputFileName);
 
@@ -38,9 +42,11 @@ class ProductListProcessor
         $uniqueProductFileGenerator = new UniqueProductListFileGenerator();
         $uniqueProductFileGenerator->createCombinationCSV($products, $outputFileName);
 
+        // @codeCoverageIgnoreStart
         if ($toPrint) {
             Product::printList($products);
         }
+        // @codeCoverageIgnoreEnd
         return true;
     }
 }

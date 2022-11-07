@@ -10,13 +10,13 @@ class FileParserValidator
     /**
      * @throws ParserException
      */
-    public static function validateProductDetail($productDetails, $index): void
+    public static function validateProductDetail(array $productDetails, int $index): void
     {
         if (!$productDetails[0]) {
-            throw ParserException::requiredFieldMissing('brand',$index);
+            throw ParserException::requiredFieldMissing('brand', $index);
         }
         if (!$productDetails[1]) {
-            throw ParserException::requiredFieldMissing('model',$index);
+            throw ParserException::requiredFieldMissing('model', $index);
         }
     }
 }

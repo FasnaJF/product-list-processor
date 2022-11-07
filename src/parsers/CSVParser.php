@@ -13,6 +13,6 @@ class CSVParser extends BaseParser implements FileParserProvider
     public function parseFile(string $inputFile): array
     {
         $delimiter = ',';
-        return $this->parseFileWithDelimiter($inputFile,$delimiter);
+        return $this->parseFileWithDelimiter($inputFile, $delimiter);
     }
 }

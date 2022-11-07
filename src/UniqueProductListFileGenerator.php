@@ -5,7 +5,7 @@ namespace src;
 class UniqueProductListFileGenerator
 {
 
-    public function createCombinationCSV($products, $outputFile): void
+    public function createCombinationCSV(array $products, string $outputFile): void
     {
         $data = $this->combineUniqueProducts($products);
 
@@ -29,7 +29,7 @@ class UniqueProductListFileGenerator
         fclose($fp);
     }
 
-    protected function combineUniqueProducts($products): array
+    protected function combineUniqueProducts(array $products): array
     {
         $uniqueProducts = [];
         foreach ($products as $product) {

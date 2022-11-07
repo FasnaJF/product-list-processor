@@ -11,7 +11,7 @@ class BaseParser
     /**
      * @throws ParserException
      */
-    protected function parseFileWithDelimiter($inputFile, $delimiter): array
+    protected function parseFileWithDelimiter(string $inputFile, string $delimiter): array
     {
         $products = [];
         $lines = file($inputFile);
@@ -29,7 +29,7 @@ class BaseParser
     /**
      * @throws ParserException
      */
-    protected function parseFileWithoutDelimiter($products): array
+    protected function parseFileWithoutDelimiter(array $products): array
     {
         $validator = new FileParserValidator();
         $i = -1;
@@ -40,7 +40,7 @@ class BaseParser
         return $products;
     }
 
-    protected function convertObjectToArray($object)
+    protected function convertObjectToArray(mixed $object): array
     {
         return json_decode(json_encode(($object)), true);
     }

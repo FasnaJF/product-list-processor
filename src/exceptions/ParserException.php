@@ -15,7 +15,7 @@ class ParserException extends \Exception
         return new static("$fileType file format is not yet supported.");
     }
 
-    public static function requiredFieldMissing(string $fieldName, $index): static
+    public static function requiredFieldMissing(string $fieldName, int $index): static
     {
         return new static("Product's $fieldName name is missing at index: $index");
     }

@@ -9,7 +9,7 @@ class ProductListGenerator
     /**
      * @throws ParserException
      */
-    public function createProducts($productDetails): array
+    public function createProducts(array $productDetails): array
     {
         $products = [];
         if (empty($productDetails)) {

@@ -206,7 +206,7 @@ class UnitTest extends TestCase
      */
     public function testInputFileExistsValidation()
     {
-        $arguments = ['parser.php', '--file', 'products.csv', '--unique-combinations=unique_combinations.csv'];
+        $arguments = ['parser.php', '--file', 'products.xsv', '--unique-combinations=unique_combinations.csv'];
         $this->expectExceptionObject(ParserException::fileNotFound());
         InputValidator::validateInputFormat($arguments);
     }
@@ -216,7 +216,7 @@ class UnitTest extends TestCase
      */
     public function testOutputFileNameNotSpecifiedValidation()
     {
-        $arguments = ['parser.php', '--file', 'products.sv', '--unique-combinations'];
+        $arguments = ['parser.php', '--file', 'products.csv', '--unique-combinations'];
         $this->expectExceptionObject(ParserException::noOutputFileName());
         InputValidator::validateInputFormat($arguments);
     }
@@ -226,7 +226,7 @@ class UnitTest extends TestCase
      */
     public function testOutputFileFormatNotSupportedValidation()
     {
-        $arguments = ['parser.php', '--file', 'products.sv', '--unique-combinations=unique_combinations.ysv'];
+        $arguments = ['parser.php', '--file', 'products.csv', '--unique-combinations=unique_combinations.ysv'];
         $this->expectExceptionObject(ParserException::notSupportedOutputFormat());
         InputValidator::validateInputFormat($arguments);
     }

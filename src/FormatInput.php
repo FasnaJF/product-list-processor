@@ -4,7 +4,7 @@ namespace src;
 
 class FormatInput
 {
-    public static function formatInput($arguments): array
+    public static function formatInput(array $arguments): array
     {
         $inputFileName = $arguments[2];
         $outputFileName = explode('=', $arguments[3])[1];

@@ -431,7 +431,7 @@ Alcatel,5050X,White,"Not Applicable",Unlocked,"Grade A - Very Good Condition",Wo
 Alcatel,"8085 PLUS",White,2GB,"Not Applicable","Grade C - Acceptable Condition",Working,2
 Alcatel,"8085 PLUS",White,2GB,"Not Applicable","Grade A - Very Good Condition",Working,1
 Alcatel,"8085 PLUS",Silver,32GB,"Not Applicable","Insurance Grade",Working,1
-Alcatel,"A3 10\" (9026X)""",White,16GB,Unlocked,"Grade A - Very Good Condition",Working,1
+Alcatel,"A3 10\" (9026X)",White,16GB,Unlocked,"Grade A - Very Good Condition",Working,1
 Alcatel,"ALC PIXI 3 4IN BLK",Black,"Not Applicable",Unlocked,"Grade D",Working,1
 Alcatel,"ALC PIXI 3 4IN BLK",Black,"Not Applicable",Virgin,"Grade A - Very Good Condition",Working,2
 Alcatel,"ALC PIXI 3 4IN BLK",Black,"Not Applicable",Unlocked,"Insurance Grade","Brand New",2
@@ -993,8 +993,8 @@ Alcatel,"POP 3 (5.0)",Gold,8GB,Unlocked,"Grade A - Very Good Condition",Working,
 Alcatel,"POP 3 (5.0)",Black,8GB,Unlocked,"Insurance Grade","Brand New",1
 Alcatel,"POP 3 (5.0)",Black,8GB,Unlocked,"Grade A - Very Good Condition",Working,1
 Alcatel,"POP 3 (5.0)",Gold,8GB,Tesco-Mobile,Unknown,Non-working,2
-Alcatel,"POP 3 (5.5\")""",Silver,8GB,Unlocked,"Grade B - Good Condition",Working,2
-Alcatel,"POP 3 (5.5\")""",Silver,8GB,Unlocked,"Grade A - Very Good Condition",Working,1
+Alcatel,"POP 3 (5.5\")",Silver,8GB,Unlocked,"Grade B - Good Condition",Working,2
+Alcatel,"POP 3 (5.5\")",Silver,8GB,Unlocked,"Grade A - Very Good Condition",Working,1
 Alcatel,"POP 4 5051D",Grey,8GB,Unlocked,Unknown,Non-working,1
 Alcatel,"POP 4 5051D",Grey,16GB,Unlocked,"Grade C - Acceptable Condition",Working,1
 Alcatel,"POP 4 5051D","Metallic Grey",16GB,Unlocked,"Grade A - Very Good Condition",Working,1
@@ -1147,14 +1147,14 @@ ALTIUS,T08,Black,"Not Applicable",Damaged,"Grade C - Acceptable Condition",BER-S
 Amazon," Kindle Fire HDX 8.9",Black,"Not Applicable","Not Applicable","Brand New","Brand New",10
 Amazon," Kindle Fire HDX 8.9",Black,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,2
 Amazon,"FIRE 7",Black,8GB,"Not Applicable",Unknown,Non-working,1
-Amazon,"FIRE HD 6\" 4TH GEN 8GB BLACK PW98VM TABLET""",Black,8GB,"Not Applicable",Unknown,"Non-working - Need Repair - HardWare",1
+Amazon,"FIRE HD 6\" 4TH GEN 8GB BLACK PW98VM TABLET",Black,8GB,"Not Applicable",Unknown,"Non-working - Need Repair - HardWare",1
 Amazon,"kindle D01100",Grey,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,1
 Amazon,"kindle D01100",Grey,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,1
 Amazon,"Kindle Fire",Black,8GB,"Not Applicable","Grade C - Acceptable Condition",Working,3
 Amazon,"Kindle Fire HDX 7",Black,2GB,"Not Applicable","Grade C - Acceptable Condition",Working,2
-Amazon,"KINDLE PAPERWHITE  6\" 5TH GEN""",Black,4GB,"Not Applicable","Grade C - Acceptable Condition",BER-Scrap,1
-Amazon,"KINDLE PAPERWHITE  6\" 5TH GEN""",Black,4GB,"Not Applicable","Grade B - Good Condition",BER-Scrap,1
-Amazon,"Kindle Paperwhite 6\" 2ND gEN""",Black,2GB,"Not Applicable","Grade B - Good Condition",Working,1
+Amazon,"KINDLE PAPERWHITE  6\" 5TH GEN",Black,4GB,"Not Applicable","Grade C - Acceptable Condition",BER-Scrap,1
+Amazon,"KINDLE PAPERWHITE  6\" 5TH GEN",Black,4GB,"Not Applicable","Grade B - Good Condition",BER-Scrap,1
+Amazon,"Kindle Paperwhite 6\" 2ND gEN",Black,2GB,"Not Applicable","Grade B - Good Condition",Working,1
 Amazon,PREMIUM,Black,"Not Applicable","Not Applicable","Brand New","Brand New",3
 "AMD RADEON",3450,Red,256MB,"Not Applicable","Grade B - Good Condition",Working,42
 "AMD RADEON",3470,Red,256MB,"Not Applicable","Grade B - Good Condition",Working,1
@@ -1213,7 +1213,7 @@ Apple,"EARPODS MD827ZM/B",White,"Not Applicable","Not Applicable","Insurance Gra
 Apple,"EARPODS MD827ZM/B",White,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,4
 Apple,"EARPODS MD827ZM/B",White,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,6
 Apple,"EARPODS MD827ZM/B",White,"Not Applicable","Not Applicable","Brand New","Brand New",4
-Apple,"IMAC 21\" A1174""",White,2GB,"Not Applicable","Grade C - Acceptable Condition",Working,1
+Apple,"IMAC 21\" A1174",White,2GB,"Not Applicable","Grade C - Acceptable Condition",Working,1
 Apple,"IPAD (5TH GENERATION) WI-FI 9.7 32GB A1822",Grey,32GB,"Not Applicable","Grade A - Very Good Condition",Working,1
 Apple,"IPAD (5TH GENERATION) WI-FI 9.7 32GB A1822",Gold,32GB,"Not Applicable","Brand New","Brand New",1
 Apple,"iPad 16gb with Wi-Fi + 3G A1337",Silver,16GB,Unlocked,"Grade C - Acceptable Condition",Working,1
@@ -3667,8 +3667,8 @@ Apple,"MacBook A1181",White,2GB,"Not Applicable","Grade B - Good Condition",Work
 Apple,"MacBook A1181",White,1GB,"Not Applicable","Grade B - Good Condition",Working,1
 Apple,"macbook A1342 2.4GHz 250GB HDD 2GB RAM",Aubergine/White,2GB,"Not Applicable","Grade C - Acceptable Condition",Working,1
 Apple,"macbook A1342 2.4GHz 250GB HDD 2GB RAM",White,4GB,"Not Applicable","Grade B - Good Condition",Working,8
-Apple,"MacBook Air 11\" Laptop Core i5 1.4GHz 4GB RAM 128GB HDD Mac OS X 10.4 Tiger""",Silver,"Not Applicable","Not Applicable","Grade C - Acceptable Condition",Working,1
-Apple,"MacBook Pro 13\" Laptop - MD101B/A ( i5 - 2.5 GHz - 4 GB RAM - 500 GB HDD )""",Silver,4GB,"Not Applicable","Grade B - Good Condition",Working,1
+Apple,"MacBook Air 11\" Laptop Core i5 1.4GHz 4GB RAM 128GB HDD Mac OS X 10.4 Tiger",Silver,"Not Applicable","Not Applicable","Grade C - Acceptable Condition",Working,1
+Apple,"MacBook Pro 13\" Laptop - MD101B/A ( i5 - 2.5 GHz - 4 GB RAM - 500 GB HDD )",Silver,4GB,"Not Applicable","Grade B - Good Condition",Working,1
 Apple,"Macbook Pro A1278","Aluminium Silver",4GB,"Not Applicable","Grade B - Good Condition",Working,1
 Apple,"MACKINTOSH G3",Blue,128MB,"Not Applicable","Grade B - Good Condition",Working,2
 Apple,"MM2L2ZM/A IPAD PRO 9.7-INCH SMART KEYBOARD  A1772",Black,"Not Applicable","Not Applicable","Brand New","Brand New",130
@@ -3744,7 +3744,7 @@ Asus,"NEXUS PLAYER (GOOGLE)",Black,"Not Applicable","Not Applicable","Grade B - 
 Asus,UL30A,Black,3GB,"Not Applicable","Grade B - Good Condition",Working,1
 Asus,"X551 15.6 inch Notebook Laptop (Intel Core i3 - 1.8 GHz - 4 GB RAM - 500 GB HDD)",Black,4GB,"Not Applicable","Grade B - Good Condition",Working,1
 Asus,"ZENFONE GO X0104D",Black,8GB,Unlocked,"Grade B B2B",Working,1
-Asus,"ZENPAD 10\" Z300""",Grey,16GB,"Not Applicable","Grade B - Good Condition",Working,1
+Asus,"ZENPAD 10\" Z300",Grey,16GB,"Not Applicable","Grade B - Good Condition",Working,1
 AZTEL,SW1600,White,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,1
 BEATS,IBEATS,Black,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,1
 BEATS,"PILL 2.0 PORTABLE WIRELESS SPEAKER",White,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,5
@@ -5524,7 +5524,7 @@ DURACELL,5000394024847,Black,"Not Applicable","Not Applicable","Grade C - Accept
 DURACELL,5000394024847,Black,"Not Applicable","Not Applicable","Insurance Grade","Brand New",1
 DURACELL,5000394024847,Black,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,1
 DURACELL,5000394024847,Black,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,2
-DVC,"16MP 2.7\" TFT HD 720P DIGITAL VIDEO DIGITAL CAMERA CMOS CAMCORDER DVC 16X DIGITAL ZOOM""",Red,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,1
+DVC,"16MP 2.7\" TFT HD 720P DIGITAL VIDEO DIGITAL CAMERA CMOS CAMCORDER DVC 16X DIGITAL ZOOM",Red,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,1
 E-LITES,"5X LIGHT INSTANT USE - 1 E-TIP",Black,"Not Applicable","Not Applicable","Brand New","Brand New",1
 E-LITES,"CURV CHARGE + GO + USB",Black,"Not Applicable","Not Applicable","Brand New","Brand New",3
 E-LITES,"CURV LIGHT 2 PACK E-TIPS",Black,"Not Applicable","Not Applicable","Brand New","Brand New",5
@@ -5777,7 +5777,7 @@ Garmin,"FENIX 3",Black,"Not Applicable","Not Applicable","Grade B - Good Conditi
 Garmin,"FORERUNNER 230",Black,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,1
 Garmin,"FORERUNNER 230",Black,"Not Applicable","Not Applicable","Grade D","Non-working - Need Repair - HardWare",1
 Garmin,"NUVI 215 NAVIGATION",Grey,"Not Applicable","Not Applicable","Brand New","Brand New",3
-Garmin,"nuvi 2445LMT 4.3\" Sat Nav with UK and Western Europe Maps""",Black,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,1
+Garmin,"nuvi 2445LMT 4.3\" Sat Nav with UK and Western Europe Maps",Black,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,1
 Garmin,"NUVI 250",Pink,"Not Applicable","Not Applicable","Brand New","Brand New",1
 Garmin,"NUVI 250W",Grey,"Not Applicable","Not Applicable","Brand New","Brand New",2
 Garmin,"NUVI 660",Black,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,1
@@ -5820,7 +5820,7 @@ Goclever,"TERRA 7",Silver,4GB,"Not Applicable","Grade D",BER,1
 Goclever,"TERRA 7",Black,"Not Applicable","Not Applicable",Unknown,"Non-working - Need Repair - HardWare",1
 GOKO,"MULTI-RECORDING SOUND EDITOR RM-3D",Black,"Not Applicable","Not Applicable","Grade C - Acceptable Condition",Working,1
 GOKO,"STEREO RECORDING EDITOR RM-8008",Black,"Not Applicable","Not Applicable","Grade C - Acceptable Condition",Working,1
-GOLLA,"BLOCK-15,4\" LAPTOP BAG""",Brown,"Not Applicable","Not Applicable","Brand New","Brand New",4
+GOLLA,"BLOCK-15,4\" LAPTOP BAG",Brown,"Not Applicable","Not Applicable","Brand New","Brand New",4
 GOLLA,"DIGIBAG ISLE",Pink,"Not Applicable","Not Applicable","Brand New","Brand New",24
 Goodmans,"LED DISCO BLUETOOTH SPEAKER",Black,"Not Applicable","Not Applicable","Insurance Grade","Brand New",1
 Google,"CHROMECAST 1ST GENERATION - H2G2",Black,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,9
@@ -7954,18 +7954,18 @@ KNOMO,"	PREMIUM LEATHER FOLIO CASE FOR IPHONE 6+/6S+",Black,"Not Applicable","No
 KNOMO,"FOLIO COVER CASE FOR IPHONE SE/5S",Black,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,9
 KNOMO,"FOLIO COVER CASE FOR IPHONE SE/5S",Black,"Not Applicable","Not Applicable","Grade A - Very Good Condition",BER-Scrap,1
 KNOMO,"FOLIO COVER CASE FOR IPHONE SE/5S",Black,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,6
-KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 4.7\" & 6/6S""",Silver,"Not Applicable","Not Applicable","Insurance Grade",Working,1
-KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 4.7\" & 6/6S""",Silver,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,6
-KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 4.7\" & 6/6S""",Silver,"Not Applicable","Not Applicable","Brand New","Brand New",1
-KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 4.7\" & 6/6S""",Blue,"Not Applicable","Not Applicable","Insurance Grade",Working,1
-KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 5.5\" & 6+/6S+ """,Silver,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,32
-KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 5.5\" & 6+/6S+ """,Black,"Not Applicable","Not Applicable","Insurance Grade",Working,1
-KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 5.5\" & 6+/6S+ """,Grey,"Not Applicable","Not Applicable","Insurance Grade",Working,3
-KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 5.5\" & 6+/6S+ """,Grey,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,4
-KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 5.5\" & 6+/6S+ """,Silver,"Not Applicable","Not Applicable","Insurance Grade",Working,20
-KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 5.5\" & 6+/6S+ """,Silver,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,1
-KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 5.5\" & 6+/6S+ """,Silver,"Not Applicable","Not Applicable","Brand New","Brand New",42
-KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 5.5\" & 6+/6S+ """,Blue,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,1
+KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 4.7\" & 6/6S",Silver,"Not Applicable","Not Applicable","Insurance Grade",Working,1
+KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 4.7\" & 6/6S",Silver,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,6
+KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 4.7\" & 6/6S",Silver,"Not Applicable","Not Applicable","Brand New","Brand New",1
+KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 4.7\" & 6/6S",Blue,"Not Applicable","Not Applicable","Insurance Grade",Working,1
+KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 5.5\" & 6+/6S+ ",Silver,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,32
+KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 5.5\" & 6+/6S+ ",Black,"Not Applicable","Not Applicable","Insurance Grade",Working,1
+KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 5.5\" & 6+/6S+ ",Grey,"Not Applicable","Not Applicable","Insurance Grade",Working,3
+KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 5.5\" & 6+/6S+ ",Grey,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,4
+KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 5.5\" & 6+/6S+ ",Silver,"Not Applicable","Not Applicable","Insurance Grade",Working,20
+KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 5.5\" & 6+/6S+ ",Silver,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,1
+KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 5.5\" & 6+/6S+ ",Silver,"Not Applicable","Not Applicable","Brand New","Brand New",42
+KNOMO,"GEOMETRIC EMBOSSED SNAP ON CASE FITS FOR IPHONE 5.5\" & 6+/6S+ ",Blue,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,1
 KNOMO,"IPHONE 6/6S LEATHER FOLIO CASE 4.7 INCH",Black,"Not Applicable","Not Applicable","Insurance Grade","Brand New",1
 KNOMO,"IPHONE 6/6S LEATHER FOLIO CASE 4.7 INCH",Blue,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,21
 KNOMO,"IPHONE 6/6S LEATHER FOLIO CASE 4.7 INCH",Blue,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,8
@@ -8082,25 +8082,25 @@ LG," Town C300",White,"Not Applicable",Foreign,"Grade C - Acceptable Condition",
 LG,1200,White,"Not Applicable",Unlocked,"Grade C - Acceptable Condition",Working,1
 LG,1200,Silver,Unknown,Three(3),"Grade C - Acceptable Condition","Non-working - DeBrand",1
 LG,20M37A-B,Grey,"Not Applicable","Not Applicable","Grade C - Acceptable Condition",Working,1
-LG,"32LF510B 32\" LED TV""",Black,"Not Applicable","Not Applicable","Insurance Grade",Working,15
-LG,"32LF510B 32\" LED TV""",Black,"Not Applicable","Not Applicable","Brand New",Working,2
-LG,"32LF510B 32\" LED TV""",Black,"Not Applicable","Not Applicable","Insurance Grade",Non-working,1
-LG,"32LF510B 32\" LED TV""",Black,"Not Applicable","Not Applicable","Grade D",Non-working,1
-LG,"32LF510B 32\" LED TV""",Black,"Not Applicable","Not Applicable","Grade B - Good Condition",Non-working,1
-LG,"32LH510B 32\" LED TV""",Black,"Not Applicable","Not Applicable","Insurance Grade",Working,101
-LG,"32LH510B 32\" LED TV""",Black,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,5
-LG,"32LH510B 32\" LED TV""",Black,"Not Applicable","Not Applicable","Brand New","Brand New",32
-LG,"32LH510B 32\" LED TV""",Black,"Not Applicable","Not Applicable","Brand New",Working,1
-LG,"32LH510B 32\" LED TV""",Black,"Not Applicable","Not Applicable","Insurance Grade",Non-working,1
-LG,"32LJ510B 32\" LED TV""",Black,"Not Applicable","Not Applicable","Insurance Grade",Working,3
-LG,"32LJ510B 32\" LED TV""",Black,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,2
-LG,"43UH603V 43\" ULTRA HD 4K TV""",Black,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,33
-LG,"43UH603V 43\" ULTRA HD 4K TV""",Black,"Not Applicable","Not Applicable","Insurance Grade",Working,2
-LG,"43UH603V 43\" ULTRA HD 4K TV""",Black,"Not Applicable","Not Applicable",Unknown,Non-working,1
-LG,"43UH603V 43\" ULTRA HD 4K TV""",Black,"Not Applicable","Not Applicable","Insurance Grade",Non-working,1
-LG,"43UH603V 43\" ULTRA HD 4K TV""",Black,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,1
-LG,"43UK6300PLB 43\" ULTRA HD 4K TV""",Black,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,207
-LG,"43UK6300PLB 43\" ULTRA HD 4K TV""",Black,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,2
+LG,"32LF510B 32\" LED TV",Black,"Not Applicable","Not Applicable","Insurance Grade",Working,15
+LG,"32LF510B 32\" LED TV",Black,"Not Applicable","Not Applicable","Brand New",Working,2
+LG,"32LF510B 32\" LED TV",Black,"Not Applicable","Not Applicable","Insurance Grade",Non-working,1
+LG,"32LF510B 32\" LED TV",Black,"Not Applicable","Not Applicable","Grade D",Non-working,1
+LG,"32LF510B 32\" LED TV",Black,"Not Applicable","Not Applicable","Grade B - Good Condition",Non-working,1
+LG,"32LH510B 32\" LED TV",Black,"Not Applicable","Not Applicable","Insurance Grade",Working,101
+LG,"32LH510B 32\" LED TV",Black,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,5
+LG,"32LH510B 32\" LED TV",Black,"Not Applicable","Not Applicable","Brand New","Brand New",32
+LG,"32LH510B 32\" LED TV",Black,"Not Applicable","Not Applicable","Brand New",Working,1
+LG,"32LH510B 32\" LED TV",Black,"Not Applicable","Not Applicable","Insurance Grade",Non-working,1
+LG,"32LJ510B 32\" LED TV",Black,"Not Applicable","Not Applicable","Insurance Grade",Working,3
+LG,"32LJ510B 32\" LED TV",Black,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,2
+LG,"43UH603V 43\" ULTRA HD 4K TV",Black,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,33
+LG,"43UH603V 43\" ULTRA HD 4K TV",Black,"Not Applicable","Not Applicable","Insurance Grade",Working,2
+LG,"43UH603V 43\" ULTRA HD 4K TV",Black,"Not Applicable","Not Applicable",Unknown,Non-working,1
+LG,"43UH603V 43\" ULTRA HD 4K TV",Black,"Not Applicable","Not Applicable","Insurance Grade",Non-working,1
+LG,"43UH603V 43\" ULTRA HD 4K TV",Black,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,1
+LG,"43UK6300PLB 43\" ULTRA HD 4K TV",Black,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,207
+LG,"43UK6300PLB 43\" ULTRA HD 4K TV",Black,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,2
 LG,a100,Grey,"Not Applicable",Unlocked,"Grade B - Good Condition",Working,1
 LG,a100,Black,"Not Applicable",Unlocked,"Grade B - Good Condition",Working,1
 LG,A133,Black,Unknown,Unlocked,"Grade B - Good Condition",Working,1
@@ -12181,8 +12181,8 @@ PUMA,"HERITAGE CASE FOR GALAXY S4 ",Black,"Not Applicable","Not Applicable","Gra
 PUMA,"PRO PERFORMANCE",Black,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,4
 PURO,"STRIPE COVER FOR IPHONE 5",Multicolour,"Not Applicable","Not Applicable","Grade A - Very Good Condition",BER,1
 "QMOBILE ",A10,White,"Not Applicable",Damaged,"Grade C - Acceptable Condition",BER-Scrap,1
-RAC,"315 4.3\" SATELLITE NAVIGATION""",Silver,512MB,"Not Applicable","Brand New","Brand New",6
-RAC,"315 4.3\" SATELLITE NAVIGATION""",Silver,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,1
+RAC,"315 4.3\" SATELLITE NAVIGATION",Silver,512MB,"Not Applicable","Brand New","Brand New",6
+RAC,"315 4.3\" SATELLITE NAVIGATION",Silver,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,1
 ROHS,"POWER BANK",White,"Not Applicable",Damaged,"Grade C - Acceptable Condition",BER-Scrap,1
 ROHS,"TABLET ",White,"Not Applicable","Not Applicable","Grade C - Acceptable Condition",BER-Scrap,1
 ROKU,"NOW TV BOX",Black,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,15
@@ -12378,15 +12378,15 @@ Samsung,710N,Black,"Not Applicable","Not Applicable","Grade B - Good Condition",
 Samsung,720N,Black,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,1
 Samsung,740N,Silver,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,1
 Samsung,743B,Silver,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,3
-Samsung,"A6 7.0\" WIFI SM-T280""",White,8GB,"Not Applicable","Insurance Grade","Brand New",18
-Samsung,"A6 7.0\" WIFI SM-T280""",White,8GB,"Not Applicable","Grade A - Very Good Condition",Working,2
-Samsung,"A6 7.0\" WIFI SM-T280""",White,8GB,"Not Applicable","Grade B - Good Condition","iOS 7 Locked",1
-Samsung,"A6 7.0\" WIFI SM-T280""",White,8GB,"Not Applicable","Grade A - Very Good Condition","iOS 7 Locked",2
-Samsung,"A6 7.0\" WIFI SM-T280""",White,8GB,"Not Applicable","Grade C - Acceptable Condition","iOS 7 Locked",1
-Samsung,"A6 7.0\" WIFI SM-T280""",White,8GB,"Not Applicable","Grade C - Acceptable Condition",Working,1
-Samsung,"A6 7.0\" WIFI SM-T280""",White,8GB,"Not Applicable","Grade B - Good Condition",Working,2
-Samsung,"A6 7.0\" WIFI SM-T280""",Black,8GB,"Not Applicable","Insurance Grade","Brand New",10
-Samsung,"A6 7.0\" WIFI SM-T280""",Black,8GB,"Not Applicable","Grade B B2B",Working,1
+Samsung,"A6 7.0\" WIFI SM-T280",White,8GB,"Not Applicable","Insurance Grade","Brand New",18
+Samsung,"A6 7.0\" WIFI SM-T280",White,8GB,"Not Applicable","Grade A - Very Good Condition",Working,2
+Samsung,"A6 7.0\" WIFI SM-T280",White,8GB,"Not Applicable","Grade B - Good Condition","iOS 7 Locked",1
+Samsung,"A6 7.0\" WIFI SM-T280",White,8GB,"Not Applicable","Grade A - Very Good Condition","iOS 7 Locked",2
+Samsung,"A6 7.0\" WIFI SM-T280",White,8GB,"Not Applicable","Grade C - Acceptable Condition","iOS 7 Locked",1
+Samsung,"A6 7.0\" WIFI SM-T280",White,8GB,"Not Applicable","Grade C - Acceptable Condition",Working,1
+Samsung,"A6 7.0\" WIFI SM-T280",White,8GB,"Not Applicable","Grade B - Good Condition",Working,2
+Samsung,"A6 7.0\" WIFI SM-T280",Black,8GB,"Not Applicable","Insurance Grade","Brand New",10
+Samsung,"A6 7.0\" WIFI SM-T280",Black,8GB,"Not Applicable","Grade B B2B",Working,1
 Samsung,"ALLSHARE CAST DONGLE -  EAD-T10UDEGXEU",Black,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,1
 Samsung,"ALPHA SM-G850F",Black,16GB,"Not Applicable","Brand New","Brand New",29
 Samsung,"ALPHA SM-G850F",Black,32GB,Unlocked,"Grade A - Very Good Condition",Working,2
@@ -15404,7 +15404,7 @@ Samsung,"GALAXY TAB E 9.6 INCH SM-T560 WIFI","White Pearl",8GB,"Not Applicable",
 Samsung,"GALAXY TAB E 9.6 INCH SM-T560 WIFI","White Pearl",8GB,"Not Applicable","Grade B - Good Condition","Working – Minor Screen Burn",1
 Samsung,"GALAXY TAB E 9.6 INCH SM-T560 WIFI",Black,8GB,"Not Applicable","Brand New","Brand New",1
 Samsung,"GALAXY TAB E 9.6 INCH SM-T560 WIFI",Black,16GB,"Not Applicable","Grade C - Acceptable Condition","Working – Minor Screen Burn",1
-Samsung,"GALAXY TAB E 9.6\" WIFI""",White,8GB,"Not Applicable","Insurance Grade","Brand New",1
+Samsung,"GALAXY TAB E 9.6\" WIFI",White,8GB,"Not Applicable","Insurance Grade","Brand New",1
 Samsung,"Galaxy Tab Pro 10.1 WiFi",White,16GB,"Not Applicable","Grade C - Acceptable Condition","Use For Parts",1
 Samsung,"Galaxy Tab Pro 10.1 WiFi",White,4GB,"Not Applicable","Grade C - Acceptable Condition",Working,1
 Samsung,"Galaxy Tab Pro 10.1 WiFi",White,Unknown,"Not Applicable",Unknown,Non-working,2
@@ -15861,7 +15861,7 @@ Samsung,GT-S5830,Black,"Not Applicable",Unlocked,"Grade B - Good Condition",Work
 Samsung,GT-S5830,White,"Not Applicable",Unlocked,"Grade D",Working,1
 Samsung,GT-S6810P,Blue,"Not Applicable",Unlocked,"Grade B - Good Condition",Working,1
 Samsung,GT-S7500,Black,"Not Applicable",Vodafone-Ireland,"Grade A - Very Good Condition",Working,1
-Samsung,"HG32ED450 32\" LED TV""",Black,"Not Applicable","Not Applicable","Insurance Grade",Working,1
+Samsung,"HG32ED450 32\" LED TV",Black,"Not Applicable","Not Applicable","Insurance Grade",Working,1
 Samsung,I200,Black,"Not Applicable",Damaged,"Grade C - Acceptable Condition","Power On Tested-Good LCD",1
 Samsung,"i8700 omnia 7",Black,16GB,Unlocked,"Grade A - Very Good Condition",Working,2
 Samsung,"i8700 omnia 7",Black,16GB,Unlocked,"Grade B - Good Condition",Working,1
@@ -16193,8 +16193,8 @@ Samsung,"TRAVEL ADAPTER USB TYPE C TO A CABLE EP-TA20UBECGGB",Black,"Not Applica
 Samsung,"TRAVEL ADAPTER USB TYPE C TO A CABLE EP-TA20UBECGGB",Black,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,16
 Samsung,"TRAVEL ADAPTER USB TYPE C TO A CABLE EP-TA20UBECGGB",Black,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,11
 Samsung,"TRAVEL ADAPTER USB TYPE C TO A CABLE EP-TA20UBECGGB",Black,"Not Applicable","Not Applicable","Insurance Grade",Working,6
-Samsung,"UNIVERSAL STAND POUCH FOR 8\" TABLETS""",Grey,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,1
-Samsung,"UNIVERSAL STAND POUCH FOR 8\" TABLETS""",Pink,"Not Applicable","Not Applicable","Brand New","Brand New",71
+Samsung,"UNIVERSAL STAND POUCH FOR 8\" TABLETS",Grey,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,1
+Samsung,"UNIVERSAL STAND POUCH FOR 8\" TABLETS",Pink,"Not Applicable","Not Applicable","Brand New","Brand New",71
 Samsung,"USB COMBO CABLE TYPE-C & MICRO USB",White,"Not Applicable","Not Applicable","Grade A - Very Good Condition",Working,10
 Samsung,"USB COMBO CABLE TYPE-C & MICRO USB",White,"Not Applicable","Not Applicable","Grade B - Good Condition",Working,1
 Samsung,"USB COMBO CABLE TYPE-C & MICRO USB",White,"Not Applicable","Not Applicable","Insurance Grade",Working,9
@@ -17587,12 +17587,12 @@ Sony,"Xperia Z3",Black,16GB,Damaged,Unknown,"iOS 7 Locked",1
 Sony,"Xperia Z3",Black,16GB,"EE Network","Grade C - Acceptable Condition","Working - Minor Issue",1
 Sony,"Xperia Z3",Black,16GB,Vodafone,"Grade B - Good Condition","Non-working - Unlock",1
 Sony,"Xperia Z3",Green,32GB,Damaged,"Grade D","Non-working - Need Repair - HardWare",1
-Sony,"Xperia Z3 8\" Tablet Compact SGP611""",Black,16GB,Unknown,"Grade C - Acceptable Condition",Working,2
-Sony,"Xperia Z3 8\" Tablet Compact SGP611""",Black,16GB,Unknown,"Grade B - Good Condition",Working,2
-Sony,"Xperia Z3 8\" Tablet Compact SGP611""",Black,16GB,Unknown,"Insurance Grade","Brand New",4
-Sony,"Xperia Z3 8\" Tablet Compact SGP611""",Black,16GB,Unknown,Unknown,"Power On Tested-Broken LCD",1
-Sony,"Xperia Z3 8\" Tablet Compact SGP611""",Black,16GB,Unknown,"Brand New","Brand New",1
-Sony,"Xperia Z3 8\" Tablet Compact SGP611""",Black,16GB,"Not Applicable","Brand New","Brand New",1
+Sony,"Xperia Z3 8\" Tablet Compact SGP611",Black,16GB,Unknown,"Grade C - Acceptable Condition",Working,2
+Sony,"Xperia Z3 8\" Tablet Compact SGP611",Black,16GB,Unknown,"Grade B - Good Condition",Working,2
+Sony,"Xperia Z3 8\" Tablet Compact SGP611",Black,16GB,Unknown,"Insurance Grade","Brand New",4
+Sony,"Xperia Z3 8\" Tablet Compact SGP611",Black,16GB,Unknown,Unknown,"Power On Tested-Broken LCD",1
+Sony,"Xperia Z3 8\" Tablet Compact SGP611",Black,16GB,Unknown,"Brand New","Brand New",1
+Sony,"Xperia Z3 8\" Tablet Compact SGP611",Black,16GB,"Not Applicable","Brand New","Brand New",1
 Sony,"Xperia Z3 Compact",Black,16GB,"EE Network","Grade A - Very Good Condition",Working,1
 Sony,"Xperia Z3 Compact",White,16GB,Unlocked,"Grade B B2B",Working,1
 Sony,"Xperia Z3 Compact",Black,16GB,Unlocked,"Insurance Grade","Brand New",6
@@ -18881,7 +18881,7 @@ Vodafone,"SMART TAB 4G",Grey,8GB,Vodafone,"Grade B - Good Condition",Working,1
 Vodafone,"SMART TAB 4G",Grey,8GB,Unlocked,"Grade B B2B",Working,1
 Vodafone,"SMART TAB 4G",Grey,8GB,Unlocked,"Grade B - Good Condition",Working,5
 Vodafone,"SMART TAB 4G",Grey,8GB,Unlocked,"Grade C - Acceptable Condition",Working,1
-Vodafone,"SMART TAB III 7\" BACK COVER""","Cool Black","Not Applicable","Not Applicable","Brand New","Brand New",10
+Vodafone,"SMART TAB III 7\" BACK COVER","Cool Black","Not Applicable","Not Applicable","Brand New","Brand New",10
 Vodafone,"SMART TURBO 7",Silver,4GB,Damaged,"Grade B - Good Condition","iOS 7 Locked",1
 Vodafone,"SMART TURBO 7",Black,16GB,Damaged,Unknown,Non-working,1
 Vodafone,"SMART TURBO 7",Black,8GB,Vodafone,"Grade C - Acceptable Condition",Working,1
