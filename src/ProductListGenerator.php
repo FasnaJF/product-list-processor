@@ -2,18 +2,18 @@
 
 namespace src;
 
-use Exception;
+use src\exceptions\ParserException;
 
 class ProductListGenerator
 {
     /**
-     * @throws Exception
+     * @throws ParserException
      */
     public function createProducts($productDetails): array
     {
         $products = [];
         if (empty($productDetails)) {
-            throw new Exception("Your input is empty.");
+            throw ParserException::emptyInput();
         }
         foreach ($productDetails as $productDetail) {
             $productDetail = array_values($productDetail);

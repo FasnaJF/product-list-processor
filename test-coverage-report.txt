@@ -1,0 +1,32 @@
+
+
+Code Coverage Report:    
+  2022-11-07 17:37:38    
+                         
+ Summary:                
+  Classes: 18.18% (2/11) 
+  Methods: 20.00% (4/20) 
+  Lines:   29.47% (28/95)
+
+src\Product
+  Methods:  33.33% ( 2/ 6)   Lines:  64.29% (  9/ 14)
+src\ProductListGenerator
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% ( 10/ 10)
+src\UniqueProductListFileGenerator
+  Methods:   0.00% ( 0/ 2)   Lines:   0.00% (  0/ 24)
+src\exceptions\FormatNotSupportedException
+  Methods:   0.00% ( 0/ 1)   Lines:   0.00% (  0/  2)
+src\factories\FileParserProviderFactory
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  9/  9)
+src\parsers\BaseParser
+  Methods:   0.00% ( 0/ 3)   Lines:   0.00% (  0/ 16)
+src\parsers\CSVParser
+  Methods:   0.00% ( 0/ 1)   Lines:   0.00% (  0/  2)
+src\parsers\JSONParser
+  Methods:   0.00% ( 0/ 1)   Lines:   0.00% (  0/  3)
+src\parsers\TSVParser
+  Methods:   0.00% ( 0/ 1)   Lines:   0.00% (  0/  2)
+src\parsers\XMLParser
+  Methods:   0.00% ( 0/ 1)   Lines:   0.00% (  0/  2)
+src\validators\FileParserValidator
+  Methods:   0.00% ( 0/ 2)   Lines:   0.00% (  0/ 11)

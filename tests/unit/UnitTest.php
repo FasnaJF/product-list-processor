@@ -2,11 +2,17 @@
 
 namespace tests\unit;
 
-use Exception;
 use PHPUnit\Framework\TestCase;
+use src\exceptions\ParserException;
+use src\factories\FileParserProviderFactory;
+use src\parsers\CSVParser;
+use src\parsers\JSONParser;
+use src\parsers\TSVParser;
+use src\parsers\XMLParser;
 use src\Product;
 use src\ProductListGenerator;
 use src\UniqueProductListFileGenerator;
+use src\validators\FileParserValidator;
 
 class UnitTest extends TestCase
 {
@@ -45,7 +51,7 @@ class UnitTest extends TestCase
     }
 
     /**
-     * @throws Exception
+     * @throws ParserException
      */
     public function testCreateProductsMethod()
     {
@@ -56,22 +62,18 @@ class UnitTest extends TestCase
     }
 
     /**
-     * @throws Exception
+     * @throws ParserException
      */
     public function testCreateEmptyProductFromProductsArray()
     {
-        try {
-            $data = [];
-            $productListGenerator = new ProductListGenerator();
-            $products = $productListGenerator->createProducts($data);
-            $this->fail("Expected Exception has not been raised.");
-        } catch (Exception $e) {
-            $this->assertEquals('Your input is empty.', $e->getmessage());
-        }
+        $this->expectExceptionObject(ParserException::emptyInput());
+        $data = [];
+        $productListGenerator = new ProductListGenerator();
+        $products = $productListGenerator->createProducts($data);
     }
 
     /**
-     * @throws Exception
+     * @throws ParserException
      */
     public function testCreateSingleProductFromProductsArray()
     {
@@ -83,7 +85,8 @@ class UnitTest extends TestCase
     }
 
     /**
-     * @throws Exception
+     *
+     * @throws ParserException
      */
     public function testCreateMultipleProductFromProductsArray()
     {
@@ -112,5 +115,86 @@ class UnitTest extends TestCase
     {
         $uniqueProductListFileGenerator = new UniqueProductListFileGenerator();
         $this->assertInstanceOf('src\UniqueProductListFileGenerator', $uniqueProductListFileGenerator);
+    }
+
+    public function testCanInitiateFileParserValidatorClass()
+    {
+        $fileParserValidator = new FileParserValidator();
+        $this->assertInstanceOf('src\validators\FileParserValidator', $fileParserValidator);
+    }
+
+    public function testCanInitiateCSVParserClass()
+    {
+        $csvParser = new CSVParser();
+        $this->assertInstanceOf('src\parsers\CSVParser', $csvParser);
+    }
+
+    public function testCanInitiateTSVParserClass()
+    {
+        $tsvParser = new TSVParser();
+        $this->assertInstanceOf('src\parsers\TSVParser', $tsvParser);
+    }
+
+    public function testCanInitiateXMLParserClass()
+    {
+        $xmlParser = new XMLParser();
+        $this->assertInstanceOf('src\parsers\XMLParser', $xmlParser);
+    }
+
+    public function testCanInitiateJSONParserClass()
+    {
+        $jsonParser = new JSONParser();
+        $this->assertInstanceOf('src\parsers\JSONParser', $jsonParser);
+    }
+
+
+    /**
+     * @throws ParserException
+     */
+    public function testFileParserForCSVFile()
+    {
+        $fileType = 'csv';
+        $parser = FileParserProviderFactory::createFileParser($fileType);
+        $this->assertInstanceOf('src\parsers\CSVParser', $parser);
+    }
+
+    /**
+     * @throws ParserException
+     */
+    public function testFileParserForTSVFile()
+    {
+        $fileType = 'tsv';
+        $parser = FileParserProviderFactory::createFileParser($fileType);
+        $this->assertInstanceOf('src\parsers\TSVParser', $parser);
+    }
+
+    /**
+     * @throws ParserException
+     */
+    public function testFileParserForXMLFile()
+    {
+        $fileType = 'xml';
+        $parser = FileParserProviderFactory::createFileParser($fileType);
+        $this->assertInstanceOf('src\parsers\XMLParser', $parser);
+    }
+
+    /**
+     * @throws ParserException
+     */
+    public function testFileParserForJSONFile()
+    {
+        $fileType = 'json';
+        $parser = FileParserProviderFactory::createFileParser($fileType);
+        $this->assertInstanceOf('src\parsers\JSONParser', $parser);
+    }
+
+    /**
+     * @throws ParserException
+     */
+    public function testFileParserForInvalidFileTypes()
+    {
+        $fileType = 'docx';
+        $this->expectExceptionObject(ParserException::formatNotSupported($fileType));
+        FileParserProviderFactory::createFileParser($fileType);
     }
 }
