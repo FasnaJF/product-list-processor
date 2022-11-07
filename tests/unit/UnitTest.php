@@ -5,14 +5,17 @@ namespace tests\unit;
 use PHPUnit\Framework\TestCase;
 use src\exceptions\ParserException;
 use src\factories\FileParserProviderFactory;
+use src\FormatInput;
 use src\parsers\CSVParser;
 use src\parsers\JSONParser;
 use src\parsers\TSVParser;
 use src\parsers\XMLParser;
 use src\Product;
 use src\ProductListGenerator;
+use src\ProductListProcessor;
 use src\UniqueProductListFileGenerator;
 use src\validators\FileParserValidator;
+use src\validators\InputValidator;
 
 class UnitTest extends TestCase
 {
@@ -69,7 +72,7 @@ class UnitTest extends TestCase
         $this->expectExceptionObject(ParserException::emptyInput());
         $data = [];
         $productListGenerator = new ProductListGenerator();
-        $products = $productListGenerator->createProducts($data);
+        $productListGenerator->createProducts($data);
     }
 
     /**
@@ -196,5 +199,72 @@ class UnitTest extends TestCase
         $fileType = 'docx';
         $this->expectExceptionObject(ParserException::formatNotSupported($fileType));
         FileParserProviderFactory::createFileParser($fileType);
+    }
+
+    /**
+     * @throws ParserException
+     */
+    public function testInputFileExistsValidation()
+    {
+        $arguments = ['parser.php', '--file', 'products.csv', '--unique-combinations=unique_combinations.csv'];
+        $this->expectExceptionObject(ParserException::fileNotFound());
+        InputValidator::validateInputFormat($arguments);
+    }
+
+    /**
+     * @throws ParserException
+     */
+    public function testOutputFileNameNotSpecifiedValidation()
+    {
+        $arguments = ['parser.php', '--file', 'products.sv', '--unique-combinations'];
+        $this->expectExceptionObject(ParserException::noOutputFileName());
+        InputValidator::validateInputFormat($arguments);
+    }
+
+    /**
+     * @throws ParserException
+     */
+    public function testOutputFileFormatNotSupportedValidation()
+    {
+        $arguments = ['parser.php', '--file', 'products.sv', '--unique-combinations=unique_combinations.ysv'];
+        $this->expectExceptionObject(ParserException::notSupportedOutputFormat());
+        InputValidator::validateInputFormat($arguments);
+    }
+
+    public function testInputFormatter()
+    {
+        $arguments = ['parser.php', '--file', 'products.csv', '--unique-combinations=unique_combinations.ysv'];
+        $formattedArguments = FormatInput::formatInput($arguments);
+        $this->assertEquals('csv', $formattedArguments['inputFileType']);
+    }
+
+    /**
+     * @throws ParserException
+     */
+    public function testBrandNameValidation()
+    {
+        $this->expectExceptionObject(ParserException::requiredFieldMissing('brand',0));
+        $productDetails = ['', '1720W', 'Working', 'Grade B - Good Condition', '4GB', 'Black', 'Not Applicable'];
+        FileParserValidator::validateProductDetail($productDetails,0);
+    }
+
+    /**
+     * @throws ParserException
+     */
+    public function testModelNameValidation()
+    {
+        $this->expectExceptionObject(ParserException::requiredFieldMissing('model',0));
+        $productDetails = ['Acer', '', 'Working', 'Grade B - Good Condition', '4GB', 'Black', 'Not Applicable'];
+        FileParserValidator::validateProductDetail($productDetails,0);
+    }
+
+    /**
+     * @throws ParserException
+     */
+    public function testInputArgumentCountValidation()
+    {
+        $this->expectExceptionObject(ParserException::invalidInputArgumentsCount());
+        $arguments = [ '--file', 'products.csv', '--unique-combinations=unique_combinations.csv'];
+        (new ProductListProcessor())->initiate($arguments);
     }
 }

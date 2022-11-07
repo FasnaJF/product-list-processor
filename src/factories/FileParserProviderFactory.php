@@ -16,16 +16,12 @@ class FileParserProviderFactory
      */
     public static function createFileParser(string $fileType): FileParserProvider
     {
-        if ($fileType == 'csv') {
-            return new CSVParser();
-        } elseif ($fileType == 'tsv') {
-            return new TSVParser();
-        } elseif ($fileType == 'json') {
-            return new JSONParser();
-        } elseif ($fileType == 'xml') {
-            return new XMLParser();
-        } else {
-            throw ParserException::formatNotSupported($fileType);
-        }
+        return match ($fileType) {
+            'csv' => new CSVParser(),
+            'tsv' => new TSVParser(),
+            'xml' => new XMLParser(),
+            'json' => new JSONParser(),
+            default => throw ParserException::formatNotSupported($fileType),
+        };
     }
 }

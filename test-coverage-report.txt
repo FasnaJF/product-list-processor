@@ -1,23 +1,27 @@
 
 
-Code Coverage Report:    
-  2022-11-07 17:37:38    
-                         
- Summary:                
-  Classes: 18.18% (2/11) 
-  Methods: 20.00% (4/20) 
-  Lines:   29.47% (28/95)
+Code Coverage Report:     
+  2022-11-07 19:06:22     
+                          
+ Summary:                 
+  Classes: 35.71% (5/14)  
+  Methods: 44.83% (13/29) 
+  Lines:   42.50% (51/120)
 
+src\FormatInput
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  6/  6)
 src\Product
   Methods:  33.33% ( 2/ 6)   Lines:  64.29% (  9/ 14)
 src\ProductListGenerator
   Methods: 100.00% ( 1/ 1)   Lines: 100.00% ( 10/ 10)
+src\ProductListProcessor
+  Methods:   0.00% ( 0/ 2)   Lines:  12.50% (  2/ 16)
 src\UniqueProductListFileGenerator
   Methods:   0.00% ( 0/ 2)   Lines:   0.00% (  0/ 24)
-src\exceptions\FormatNotSupportedException
-  Methods:   0.00% ( 0/ 1)   Lines:   0.00% (  0/  2)
+src\exceptions\ParserException
+  Methods: 100.00% ( 7/ 7)   Lines: 100.00% (  7/  7)
 src\factories\FileParserProviderFactory
-  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  9/  9)
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  6/  6)
 src\parsers\BaseParser
   Methods:   0.00% ( 0/ 3)   Lines:   0.00% (  0/ 16)
 src\parsers\CSVParser
@@ -29,4 +33,6 @@ src\parsers\TSVParser
 src\parsers\XMLParser
   Methods:   0.00% ( 0/ 1)   Lines:   0.00% (  0/  2)
 src\validators\FileParserValidator
-  Methods:   0.00% ( 0/ 2)   Lines:   0.00% (  0/ 11)
+  Methods:   0.00% ( 0/ 1)   Lines:  75.00% (  3/  4)
+src\validators\InputValidator
+  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  8/  8)

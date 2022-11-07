@@ -19,7 +19,7 @@ class BaseParser
         foreach ($lines as $index => $line) {
             if ($index !== 0) {
                 $productDetails = str_getcsv($line, $delimiter);
-                $validator->validateProductDetailRows($productDetails, $index);
+                $validator->validateProductDetail($productDetails, $index);
                 $products[] = $productDetails;
             }
         }
@@ -35,7 +35,7 @@ class BaseParser
         $i = -1;
         foreach ($products as $product) {
             $i++;
-            $validator->validateProductDetailNodes($this->convertObjectToArray($product), $i);
+            $validator->validateProductDetail(array_values($this->convertObjectToArray($product)), $i);
         }
         return $products;
     }
